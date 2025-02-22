@@ -1,27 +1,18 @@
 Name:		python-gpiod
-Version:	1.5.3
-Release:	2
+Version:	2.3.0
+Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/g/gpiod/gpiod-%{version}.tar.gz
-Summary:	g
+Summary:	These are the official Python bindings for libgpiod.
 URL:		https://pypi.org/project/gpiod/
 License:	MIT
 Group:		Development/Python
-BuildRequires:	python%{pyver}dist(pip)
-BuildArch:	noarch
+BuildSystem:    python
+BuildRequires:  pkgconfig(python)
 
 %description
-g
-
-
-%prep
-%autosetup -p1 -n gpiod-%{version}
-
-%build
-%py_build
-
-%install
-%py_install
+These are the official Python bindings for libgpiod
 
 %files
-%{py_sitedir}/gpiod
-%{py_sitedir}/gpiod-*.*-info
+%doc README.md
+%{python_sitearch}/gpiod
+%{python_sitearch}/gpiod-*.dist-info
