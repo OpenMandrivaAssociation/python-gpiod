@@ -8,6 +8,7 @@ License:	MIT
 Group:		Development/Python
 BuildSystem:    python
 BuildRequires:  pkgconfig(python)
+BuildRequires:	python%{pyver}dist(setuptools)
 
 %description
 These are the official Python bindings for libgpiod
