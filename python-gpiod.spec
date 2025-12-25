@@ -1,6 +1,6 @@
 Name:		python-gpiod
-Version:	2.3.0
-Release:	2
+Version:	2.4.0
+Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/g/gpiod/gpiod-%{version}.tar.gz
 Summary:	These are the official Python bindings for libgpiod.
 URL:		https://pypi.org/project/gpiod/
