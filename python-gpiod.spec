@@ -2,7 +2,7 @@
 
 Name:		python-gpiod
 Version:	2.5.0
-Release:	1
+Release:	2
 Summary:	These are the official Python bindings for libgpiod
 License:	MIT
 Group:		Development/Python
